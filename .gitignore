@@ -1,0 +1,23 @@
+# .gitignore for MinhLocation
+
+# Node modules
+node_modules/
+
+# Build output
+dist/
+
+# Environment variables
+.env
+
+# Configuration files with secrets
+config/*.json
+
+# Database files
+*.sqlite
+*.db
+
+# Cache
+.cache/
+
+# Vendor directories
+vendor/
