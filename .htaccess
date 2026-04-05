@@ -1,0 +1,5 @@
+RewriteEngine On
+
+# Rewrite rule for subdomain short links
+RewriteCond %{HTTP_HOST} ^(www\.)?short\.example\.com$ [NC]
+RewriteRule ^(.*)$ /path/to/redirect.php [L,QSA]
